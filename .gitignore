@@ -6,3 +6,4 @@
 !/.idea/
 !/.swagger-codegen/
 /.swagger-codegen/VERSION
+.timetracker
