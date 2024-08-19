@@ -57,7 +57,7 @@ class ShipmentResponseShipmentResults implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'disclaimer' => '\UPS\Shipping\Shipping\ShipmentResultsDisclaimer[]',
+        'disclaimer' => '\UPS\Shipping\Shipping\ShipmentResultsDisclaimer',
         'shipment_charges' => '\UPS\Shipping\Shipping\ShipmentResultsShipmentCharges',
         'negotiated_rate_charges' => '\UPS\Shipping\Shipping\ShipmentResultsNegotiatedRateCharges',
         'frs_shipment_data' => '\UPS\Shipping\Shipping\ShipmentResultsFRSShipmentData',
@@ -67,8 +67,8 @@ class ShipmentResponseShipmentResults implements ModelInterface, ArrayAccess
         'shipment_identification_number' => 'string',
         'mi_dual_return_shipment_key' => 'string',
         'bar_code_image' => 'string',
-        'package_results' => '\UPS\Shipping\Shipping\ShipmentResultsPackageResults[]',
-        'control_log_receipt' => '\UPS\Shipping\Shipping\ShipmentResultsControlLogReceipt[]',
+        'package_results' => '\UPS\Shipping\Shipping\ShipmentResultsPackageResults',
+        'control_log_receipt' => '\UPS\Shipping\Shipping\ShipmentResultsControlLogReceipt',
         'form' => '\UPS\Shipping\Shipping\ShipmentResultsForm',
         'cod_turn_in_page' => '\UPS\Shipping\Shipping\ShipmentResultsCODTurnInPage',
         'high_value_report' => '\UPS\Shipping\Shipping\ShipmentResultsHighValueReport',
