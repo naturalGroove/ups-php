@@ -59,7 +59,7 @@ class LabelRecoveryResponse implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'response' => '\UPS\Shipping\Shipping\LabelRecoveryResponseResponse',
         'shipment_identification_number' => 'string',
-        'label_results' => '\UPS\Shipping\Shipping\OneOfLabelRecoveryResponseLabelResults',
+        'label_results' => '\UPS\Shipping\Shipping\LabelRecoveryResponseLabelResults',
         'cod_turn_in_page' => '\UPS\Shipping\Shipping\LabelRecoveryResponseCODTurnInPage',
         'form' => '\UPS\Shipping\Shipping\LabelRecoveryResponseForm',
         'high_value_report' => '\UPS\Shipping\Shipping\LabelRecoveryResponseHighValueReport',
